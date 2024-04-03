@@ -128,7 +128,7 @@ class DallE3_App:
     def run(self):
 
         st.title('Welcome to the DALL·E 3 Image Generator')
-        st.subheader("Experience The Magic Of OpenAI's DALL·E 3 Image Generator Bot: Describe, Create, Amaze! :art: ")
+        st.subheader("Unleash your creativity with OpenAI’s DALL·E 3 Image Generator Bot! :art: ")
 
         # Enter API Key
         col1, col2 = st.columns([1, 1])
