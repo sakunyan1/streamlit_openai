@@ -64,7 +64,7 @@ class ImageGenerator:
                     data=f.read(),
                     file_name='files.zip',
                     mime='application/zip',
-                    help = 'Please note: Clicking this button will refresh the page. If your device doesn’t support downloading zip files, you can save the image using the provided link above.'
+                    help = ' :exclamation: Please note: Clicking this button will refresh the page. If your device doesn’t support downloading zip files, you can save the image using the provided link above.'
                 )
                 st.session_state['download_button_clicked'] = True
 
@@ -127,7 +127,7 @@ class DallE3_App:
     # Run the Chatbot application
     def run(self):
 
-        st.title('Welcome to the DALL·E 3 Image Generator')
+        st.title('Welcome to the DALL·E 3 Image Generator :rocket: ')
         st.subheader("Unleash your creativity with OpenAI’s DALL·E 3 Image Generator Bot! :art: ")
 
         # Enter API Key
