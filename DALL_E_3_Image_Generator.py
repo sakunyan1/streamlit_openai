@@ -64,7 +64,7 @@ class ImageGenerator:
                     data=f.read(),
                     file_name='files.zip',
                     mime='application/zip',
-                    help = 'WARNING: Page will reset upon clicking this button. If your device cannot download zip files, please save image from the link above.'
+                    help = 'Please note: Clicking this button will refresh the page. If your device doesn’t support downloading zip files, you can save the image using the provided link above.'
                 )
                 st.session_state['download_button_clicked'] = True
 
