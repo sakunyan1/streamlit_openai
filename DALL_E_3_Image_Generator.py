@@ -127,7 +127,7 @@ class DallE3_App:
     # Run the Chatbot application
     def run(self):
 
-        st.title('Welcome to DALL·E 3 Image Generator')
+        st.title('Welcome to the DALL·E 3 Image Generator')
         st.subheader("Experience The Magic Of OpenAI's DALL·E 3 Image Generator Bot: Describe, Create, Amaze! :art: ")
 
         # Enter API Key
@@ -148,7 +148,7 @@ class DallE3_App:
 
         
             # text area for prompt
-            prompt = st.text_area("Describe The Desired Image",
+            prompt = st.text_area("Got a picture in mind? Drop a prompt and let’s bring it to life!",
                                     placeholder = "Provide a detailed description here",
                                     value = '')
 
