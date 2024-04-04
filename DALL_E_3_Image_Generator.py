@@ -112,7 +112,7 @@ class DallE3_App:
         # set page config
         st.set_page_config(page_title="DALL·E 3 Image Generator",
                             page_icon=":art:",
-                            layout='wide',
+                            layout='centered',
                             initial_sidebar_state="auto")
         
        # for image storing
